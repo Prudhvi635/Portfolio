@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prudhvi's Portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/images/favicon.png">
+    <script src="https://kit.fontawesome.com/e674bba739.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <a href="index.html"><span><h1>Prudhvi.</h1></span></a>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#certifications">Certifications</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times"></i>
+                </ul>
+                <i class="fas fa-bars"></i>
+            </nav>
+            <div class="header-text">
+                
+                
+                <h1>Hello, My name is
+                     <br><span>Prudhvi Raj Yagana</span><br>I'm a Web Developer</h1>
+            </div>
+        </div>
+    </div>
+    <!-- ----------ABOUT---------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/Me.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>As a computer science and engineering student with a strong academic record, I am highly motivated and enthusiastic about pursuing opportunities to enhance my skills and gain practical experience in my field. My ultimate objective is to acquire specialized knowledge and expertise that will prepare me for a successful career.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
+                        <p class="tab-links" onclick="openTab('technologies')">Technologies</p>
+                        <p class="tab-links" onclick="openTab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Java</span><br></li>
+                            <li><span>JavaScript</span><br></li>
+                            <li><span>Python</span><br></li>
+                            <li><span>PHP</span><br></li>
+                            <li><span>Web App Development</span><br></li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="technologies">
+                        <ul>
+                            <li><span>Cloud Computing</span><br></li>
+                            <li><span>DBMS</span><br></li>
+                            <li><span>ReactJS</span><br></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020-Present</span><br>B.tech in CSE from Sri Vasavi Engineering College Tadepalligudem </li>
+                            <li><span>2018-2020</span><br>Intermediate from Aditya Junior College Tadepalligudem</li>
+                            <li><span>2018</span><br>SSC from ZPP HighSchool West vipparu</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------certifications---------- -->
+    <div id="certifications">
+        <div class="container">
+            <h1 class="sub-title">Certifications</h1>
+            <div class="certifications-list">
+                <div>
+                    <i class="fa-brands fa-android"></i>
+                    <h2>PHP Developer</h2>
+                    <p>Completed a online course PHP from Great Learning Academy.</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2> Dynamic Web Development</h2>
+                    <p>Certified as Dynamic website builder using WordPress from Brainovision Solutions,India.</p>
+                    
+
+                </div>
+                <div>
+
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>HTML Developer</h2>
+                    <p>Learned to built web pages using HTML with hands on learning from Skillup by Simplilearn.</p>
+                    
+                </div>
+                <div>
+                    <i class="fa-brands fa-android"></i>
+                    <h2>AGILE Methodology</h2>
+                    <p>Certified for Agile Methodology Virtual Experience Program from Cognizant Forage.</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-bug"></i>
+                    <h2>Cloud Computing</h2>
+                    <p>Certified as Cloud Foundations Graduate from AWS. Through this I learnt the techniques for cloud foundation for enormous data and its processing.</p>
+                </div>
+                <div>
+                    <i class="fa-brands fa-keyboard"></i>
+                    <h2>Web Development Internship</h2>
+                    <p> Certified as Intern with Web Development by making web applications from Bharat Internship.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------PROJECTS--------- -->
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.jpg" alt="">
+                    <div class="layer">
+                        <h2>Web page Development using PHP for Cafeteria’s</h2>
+                        <p>Foodcave is a web page used to order food online from respective stalls in   college canteen.It saves time to customer and canteen employee  <br>Tech: PHP, MySQL,HTML,CSS,Javascript,Bootstrap
+                        </p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.jpg" alt="">
+                    <div class="layer">
+                        <h2>Web page for Funding and requesting Donations for Organization’s</h2>
+                        <p>HealthyHearts is a web page used to request for Donation and funding money to particular donation. <br>Tech: PHP, MySQL,HTML,CSS,Javascript,Bootstrap</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/hands-holding-multiply-symbol.jpg" alt="">
+                    <div class="layer">
+                        <h2>Tic-Tac-Toe game</h2>
+                        <p>This is a simple and subtle project developed using javascript.Tic-Tac-Toe is a two-player  browser game in which the players fill up nine empty squares in a table with either an X or an O when it is their turn. Once someone succeeds to line up their sign vertically or horizontally without an interruption, that player wins. <br>Tech:HTML,CSS,Javascript</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                    
+                </div>
+                <div class="work">
+                    <img src="images/top-view-play-dough-snake-with-blue-background (1).jpg" alt="">
+                    <div class="layer">
+                        <h2>Snake-Food game </h2>
+                        <p>A snake game is a simple game where a snake moves around a box trying to eat food. Once it successfully eats the apple, the length of the snake increases and the movement becomes faster.  Then the game is over when the snake runs into itself or any of the four walls of the box. <br>Tech:HTML,CSS,Javascript</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                    
+                </div>
+                <div class="work">
+                    <img src="images/drum-kit-drums-studio-beautiful-background-close-up.jpg" alt="">
+                    <div class="layer">
+                        <h2>Drum Kit</h2>
+                        <p> Drum kit  is a project which is developed using Javascript and some key concepts in javascript such as DOM,key events,CSS animations.Adding event listeners to buttons and keystrokes so that you’ll know when the user is tapping on the keyboard or clicking on a particular button on your Website. <br>Tech:HTML,CSS,Javascript</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                    
+                </div>
+                <div class="work">
+                    <img src="images/closeup-shot-thermometer-beach-sand.jpg" alt="">
+                    <div class="layer">
+                        <h2>Temparature Converter</h2>
+                        <p>A simple website  to convert temparature between Celcius,fahrenheit and Kelvin. <br>Tech:HTML,CSS,Javascript</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                    
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <!-- ----------CONTACT---------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i> prudhviyagana635@gmail.com</p>
+                    <p><i class="fas fa-location-dot"></i> Tadepalligudem,Andhra Pradesh,India</p>
+                    <p><i class="fas fa-phone-square-alt"></i> +91 8008054449</p>
+                    <div class="social-icons">
+                        <a href="https://github.com/Prudhvi635"><i class="fab fa-github"></i></a>
+                        
+                        <a href="https://www.linkedin.com/in/yagana-prudhvi-raj-7079b1201/"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/RESUME.pdf" download class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn3">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <script src="index.js"></script>
+
+
+
+    
+</body>
+
+</html>
